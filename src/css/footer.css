@@ -1,11 +1,29 @@
 .page-footer {
   background-color: #1b414b;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer-cap {
+  display: flex;
+  flex-direction: row;
+  gap: 370px;
+  margin-bottom: 96px;
 }
 
 .footer-logo {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.03em;
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.footer-nav-item {
 }
 
 .footer-nav-link {
@@ -27,6 +45,8 @@
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
+  width: 693px;
+  margin: 0 auto 99px;
 }
 
 .footer-copyright,
@@ -35,6 +55,13 @@
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: #b4b7ba;
+}
+
+.footer-policy {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
 }
 
 .footer-privacy:hover,
